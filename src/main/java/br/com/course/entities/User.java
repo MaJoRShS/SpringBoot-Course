@@ -2,14 +2,11 @@ package br.com.course.entities;
 
 import java.io.Serializable;
 import java.util.Objects;
-
-public class User implements Serializable {
-
-	private static final long serialVersionUID = 1L;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+
 
 @Entity
 public class User implements Serializable {
